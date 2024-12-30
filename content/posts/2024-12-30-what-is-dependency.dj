@@ -34,10 +34,10 @@ the rest of the hashes.
 
 ## Location
 
-Location is the suggested way to acquire dependency. It is something that tells you how to get a
-file tree that matches the checksum you already know. Typically, a location is just an URL.
+Location is the suggested way to acquire a dependency. It is something that tells you how to get a
+file tree that matches the checksum you already know. Typically, a location is just a URL.
 
-If a dependency is identified via a checksum, than there might be several locations. In fact, common
+If a dependency is identified via a checksum, then there might be several locations. In fact, common
 scenarios would have at least three or four:
 
 * The canonical URL from which the dependency can be downloaded, and which is considered the source
@@ -45,11 +45,11 @@ scenarios would have at least three or four:
 * Global distributed content-addressable cache, which stores redundant copies of all dependencies in
   the ecosystem to provide availability.
 * Local on-disk cache of dependencies that are actually used on the machine.
-* Project local cache of dependencies that is a part of project's repository, to guarantee that
+* Project local cache of dependencies that is a part of the project's repository, to guarantee that
   dependencies are as available as the project itself.
 
 It doesn't matter _where_ you got the dependency from, as long as the checksum matches. But it
-certainly helps to have at least one suggested place to search in
+certainly helps to have at least one suggested place to search in.
 
 ## Name & Version
 
